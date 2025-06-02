@@ -6,3 +6,25 @@ AI Agent are smart software service that combine generative AI modeles with cont
 For example an organation might build an AI agent to help employees manage expense claims. The agant might use a genetative model combined with corporate expenses policy documentation to answer employee questions about what expenses can be claimed and what lilits apply. Additionally the agent could use a programmatic function to automatically submit expense claims for requlary repeated expenses (such as a monthly call phone bill ) or intelligently route expenses to the appropriate approver based on claim amounts.
 
 in more complex scenarious, organizations can devlop multi-agent solution in which multiple agents coordinate work between them for example a travel booking agent could book flights and hotels for employess and automatically submit expense claims with appropriate receipts to the expences agent 
+
+Otions for agent development
+* Azure AI foundry agent Service
+* Semantic kernal - open source development kt. helps to build AI agent and Orchestrare multi agent solution.
+* AutoGen - Open Source framework for devloping agents.
+* Copilot Studio - low code development environment 
+* M365 Copilot 
+
+# Azure AI foundry agent Service :
+Azure AI foundry Agent Service is a service within Azure that you can use to create test and manage AI agents. it provides both a visual agent devlopment experience in the azure AI foundry and a code - first devlopment experince using the Azure AI Foundry SDK.
+
+# Components of an agent
+* Model: A deployed generative AI model that enables the agent to reason and generate natural language responce to prompts.
+You can use common OpenAI models and selection of models from the Azure AI foundry model catelog.
+
+* Knowledged : data source that enable that agent to ground prompts with contextual data. Potential knowledge source include internet search results from Microsoft Bring.
+  an Azure AI search index or your own data and documents.
+
+* Tools: Programmatic functions that enable that agent to automate action. Builts-in-tools to access knowledge in Azure AI Search and bring are provided as well a s code interpreter tool that you can use to genrate and run Python code. You can also create tools using yourown code or Azure Functions.
+
+Instruction:
+
