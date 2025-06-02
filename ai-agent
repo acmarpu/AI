@@ -1,0 +1,8 @@
+As Generative AI models becomes more powerfil and ubiquitous, their use has grown beyond simple "chat" application to power intelligent Agent that can operate autonomously to automate tasks.
+
+# What is AI Agent
+AI Agent are smart software service that combine generative AI modeles with contextual data and the ability to automate tasks based on user on user input and environmental factors that they perceive 
+
+For example an organation might build an AI agent to help employees manage expense claims. The agant might use a genetative model combined with corporate expenses policy documentation to answer employee questions about what expenses can be claimed and what lilits apply. Additionally the agent could use a programmatic function to automatically submit expense claims for requlary repeated expenses (such as a monthly call phone bill ) or intelligently route expenses to the appropriate approver based on claim amounts.
+
+in more complex scenarious, organizations can devlop multi-agent solution in which multiple agents coordinate work between them for example a travel booking agent could book flights and hotels for employess and automatically submit expense claims with appropriate receipts to the expences agent 
